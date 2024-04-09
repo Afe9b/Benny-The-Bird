@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  /*background-color: blueviolet;*/
+  background-image: url("image/tree400-690.png");
+  image-rendering: pixelated;
+}
+
+canvas {
+  border: 1px solid black;
+}
