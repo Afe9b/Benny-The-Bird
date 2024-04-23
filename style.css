@@ -1,10 +1,7 @@
-html,
 body {
   height: 100%;
   margin: 0;
-}
-
-body {
+  background-color: rgb(30, 30, 30);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,10 +9,15 @@ body {
 
 #game {
   /*background-color: blueviolet;*/
-  background-image: url("image/tree400-690.png");
+  background-image: url("image/tree.png");
+  background-size: cover;
   image-rendering: pixelated;
 }
 
 canvas {
-  border: 1px solid black;
+  border: 5px solid rgb(0, 184, 22);
+}
+
+.fatbird {
+  image-rendering: pixelated;
 }
